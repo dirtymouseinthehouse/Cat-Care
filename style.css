@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+
+#nav_parent{
+            display: flex;
+            justify-content: space-between;
+            width:95vw;
+            margin:auto;
+
+
+            
+}
+
+img{
+    height: 60px;
+    width: 60px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+.navbar> ul {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:35vw;
+    height:100px;
+    z-index: 1000;
+}
+
+li{
+ list-style-type: none; 
+ width: 110px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: #A17D60;
+    font-weight: bolder;
+}
+h2{
+    padding-top: 5px;
+}
+
+ #home{ 
+    display: flex;
+    width:90vw;
+    justify-content: center;
+    align-items:flex-end;
+    height: 70vh;
+    background:url('pexels-pixabay-416160.jpg');
+    border-radius: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin:55px auto;
+  
+    
+} 
+.hometext{
+    box-sizing: border-box;
+    width:43%;
+    height:56px;
+    background-color: rgb(223, 230, 236);
+    text-align: center;
+    padding-top: 14px;
+    margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 3px;
+   
+}
+
+#services{
+    display:grid;
+    grid-template-columns: auto auto auto ;
+    column-gap: 50px;
+    margin:auto;
+    width:80vw;
+    margin-top: 60px;
+    height:40vh;
+    text-align: center;
+    
+
+}
+ .cats{
+    box-sizing: border-box;
+    display:flex;
+    /* width:300px; */
+    /* height:50%; */
+    text-align: center; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cats>img{
+    width:400px;
+    height:300px;
+    border-radius: 10px;
+}  
+  
+.cats>p{
+    padding-bottom: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #A17D60;
+}
